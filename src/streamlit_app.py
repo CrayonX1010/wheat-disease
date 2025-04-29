@@ -14,7 +14,7 @@ matplotlib.rcParams['axes.unicode_minus'] = False  # 正常显示负号
 
 # 配置参数
 IMG_SIZE = 224
-MODEL_PATH = r'd:\prog2\agriculture\models\best_model_epoch_continue_10.pth'  # 使用您最好的模型
+MODEL_PATH = 'models/best_model_epoch_continue_10.pth'
 
 # 加载类别信息 - 英文名和中文名对照
 class_names = ['Aphid', 'Black Rust', 'Blast', 'Brown Rust', 'Common Root Rot', 
